@@ -29,4 +29,5 @@ backend/uploads/
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.dbdesktop.ini
+desktop.ini
