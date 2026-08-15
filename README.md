@@ -76,3 +76,168 @@ http://localhost:8501
 ## Important
 
 This is an MVP and must not be used as a production clinical system without appropriate security, privacy, validation, audit controls, clinical review and regulatory assessment.
+# OPDAI – AI-Powered Doctor-Patient Assistant
+
+OPDAI is an AI-powered healthcare assistant MVP that helps collect
+patient information, understand symptoms, process prescription uploads,
+and provide a structured summary for doctors.
+
+## Features
+
+- Patient information collection
+- AI-powered symptom conversation
+- Prescription/document upload
+- AI-generated patient summary
+- Doctor dashboard
+- FastAPI backend
+- Streamlit frontend
+- SQLite database
+- Docker support
+- Environment-based configuration
+
+## Architecture
+
+Patient
+   ↓
+Streamlit Frontend
+   ↓
+FastAPI Backend
+   ↓
+AI / LLM Service
+   ↓
+Patient Summary
+   ↓
+Doctor Dashboard
+
+## Tech Stack
+
+### Frontend
+- Streamlit
+- Python
+
+### Backend
+- FastAPI
+- Uvicorn
+- Python
+- SQLite
+
+### AI
+- OpenAI API
+- Prompt-based symptom summarization
+
+### DevOps
+- Docker
+- Docker Compose
+- GitHub
+
+## Project Structure
+
+OPDAI/
+├── backend/
+│   ├── app/
+│   │   ├── auth/
+│   │   ├── routers/
+│   │   ├── services/
+│   │   ├── schemas/
+│   │   ├── prompts/
+│   │   └── utils/
+│   ├── requirements.txt
+│   └── .env
+│
+├── frontend/
+│   └── streamlit_app.py
+│
+├── docs/
+├── Dockerfile
+├── docker-compose.yml
+├── LICENSE
+└── README.md
+
+## Running Locally
+
+### Backend
+
+```bash
+cd backend
+# OPDAI – AI-Powered Doctor-Patient Assistant
+
+OPDAI is an AI-powered healthcare assistant MVP that helps collect
+patient information, understand symptoms, process prescription uploads,
+and provide a structured summary for doctors.
+
+## Features
+
+- Patient information collection
+- AI-powered symptom conversation
+- Prescription/document upload
+- AI-generated patient summary
+- Doctor dashboard
+- FastAPI backend
+- Streamlit frontend
+- SQLite database
+- Docker support
+- Environment-based configuration
+
+## Architecture
+
+Patient
+   ↓
+Streamlit Frontend
+   ↓
+FastAPI Backend
+   ↓
+AI / LLM Service
+   ↓
+Patient Summary
+   ↓
+Doctor Dashboard
+
+## Tech Stack
+
+### Frontend
+- Streamlit
+- Python
+
+### Backend
+- FastAPI
+- Uvicorn
+- Python
+- SQLite
+
+### AI
+- OpenAI API
+- Prompt-based symptom summarization
+
+### DevOps
+- Docker
+- Docker Compose
+- GitHub
+
+## Project Structure
+
+OPDAI/
+├── backend/
+│   ├── app/
+│   │   ├── auth/
+│   │   ├── routers/
+│   │   ├── services/
+│   │   ├── schemas/
+│   │   ├── prompts/
+│   │   └── utils/
+│   ├── requirements.txt
+│   └── .env
+│
+├── frontend/
+│   └── streamlit_app.py
+│
+├── docs/
+├── Dockerfile
+├── docker-compose.yml
+├── LICENSE
+└── README.md
+
+## Running Locally
+
+### Backend
+
+```bash

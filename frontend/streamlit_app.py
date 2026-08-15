@@ -2,7 +2,7 @@ import os
 import requests
 import streamlit as st
 
-API_URL = os.getenv("OPDAI_API_URL", "https://opdaionrender.com")
+API_URL = os.getenv("OPDAI_API_URL", "https://opdai.onrender.com")
 
 st.set_page_config(page_title="OPDAI", page_icon="🩺", layout="wide")
 st.title("🩺 OPDAI — AI-assisted OPD Intake")
