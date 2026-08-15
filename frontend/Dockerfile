@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install --no-cache-dir streamlit requests
+RUN pip install --no-cache-dir --default-timeout=100 --retries=10 streamlit requests
 
 EXPOSE 8501
 
