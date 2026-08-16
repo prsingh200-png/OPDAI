@@ -52,10 +52,10 @@ http://localhost:8501
 ## Demo doctor login
 
 Email:
-`doctor@example.com`
+`your-email@example.com`
 
 Password:
-`ChangeMe123!`
+`your-password`
 
 Change these credentials in `.env` before using the application beyond local development.
 
@@ -241,3 +241,4 @@ OPDAI/
 ### Backend
 
 ```bash
+
